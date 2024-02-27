@@ -24,7 +24,7 @@ Docker is required for deploying the API locally.
 ### Setting up Locally
 1. Clone the repository
  ```shell
- git clone https://github.com/jayjayjjpro/SolarEnergy_API.git
+ git clone https://github.com/HiverlabResearchAndDevelopment/Mock_Solar_API.git
    ```
 2.  Build the docker image
 ```shell
