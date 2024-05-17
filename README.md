@@ -6,7 +6,7 @@ A Flask API to calculate the amount of solar energy(kWh) produced by solar panel
 
 - E = Energy (kWh)
 - A = total area of the panel(m²)
-- r = yield/efficiency of the solar panel given by the ratio : electrical power (in kWp) of one solar panel (default value = 0.18)
+- r = yield/efficiency of the solar panel given by the ratio : electrical power (in kWp) of one solar panel divided by the area of one panel (default value = 0.18)
 - H = annual average solar radiation on tilted panels (kWh)  (Obtained by making a **Global Solar Atlas** API call using latitude and longitude)
 - PR = Performance ratio, constant for losses (range between 0.5 and 0.9, default value = 0.80)
 
