@@ -1,5 +1,6 @@
 # Solar Energy API
-
+## Purpose
+As alternatives on the market (e.g., Google Solar API) are limited by costs and coverage, we created an easy-to-use service that allows users to calculate the amount of solar energy (kWh) produced by solar panels using the formula E = A x r x H x PR
 ## Overview
 A Flask API to calculate the amount of solar energy(kWh) produced by solar panels based on the formula E = A x r x H x PR
 
@@ -39,12 +40,12 @@ docker run -d -p <your-port>:8000 <your-image-name>
 ### Azure VM
 1. url
 ```shell
-http://4.193.193.171:5050/
+https://solarenergy-calc.hiverlab.com/
 ```
 2. Use the url on web broswer or Postman, modify the query parameters(***latitude,longitude,area,efficiency and performance_ratio***) with your own values
 3. Example
 ```shell
-http://4.193.193.171:5050/?latitude=1.359433&longitude=103.852386&area=150&efficiency=&performance_ratio=0.7
+https://solarenergy-calc.hiverlab.com/?latitude=1.359433&longitude=103.852386&area=150&efficiency=&performance_ratio=0.7
 ```
 ### Local Docker
 1. url
